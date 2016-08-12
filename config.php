@@ -1,30 +1,19 @@
 <?php
 namespace LaneWeChat;
-/**
- * 系统主配置文件.
- * @Created by Lane.
- * @Author: lane
- * @Mail lixuan868686@163.com
- * @Date: 14-8-1
- * @Time: 下午1:00
- * @Blog: Http://www.lanecn.com
- */
+
 //版本号
-define('LANEWECHAT_VERSION', '1.4');
-define('LANEWECHAT_VERSION_DATE', '2014-11-05');
+define('LANEWECHAT_VERSION', 'master');
+define('LANEWECHAT_VERSION_DATE', '2016-08-12');
 
 /*
  * 服务器配置，详情请参考@link http://mp.weixin.qq.com/wiki/index.php?title=接入指南
  */
 define("WECHAT_URL", 'http://lanewechat.lanecn.com/');
-define('WECHAT_TOKEN', 'weixin');
+define('WECHAT_TOKEN', 'chexiaomeng');
 define('ENCODING_AES_KEY', "MqAuKoex6FyT5No0OcpRyCicThGs0P1vz4mJ2gwvvkF");
 
-/*
- * 开发者配置
- */
-define("WECHAT_APPID", 'wx9bc9decf65a52165');
-define("WECHAT_APPSECRET", 'c4f6055c5e07292307c2fc5891491b39');
+define("WECHAT_APPID", 'wxc79510296cc253b3');
+define("WECHAT_APPSECRET", '698f86ef2c5874cb11f3e2260e742c99');
 
 /*
  * SAE平台配置
