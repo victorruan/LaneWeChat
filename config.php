@@ -32,6 +32,7 @@ define("WECHAT_APPSECRET", 'c4f6055c5e07292307c2fc5891491b39');
 define("HTTP_ACCESSKEY", '04xmzo3zm5');
 define("HTTP_APPNAME", 'imcustom4test');
 
+define('GLOBALDATA_ADDRESS','139.224.28.249:2207');
 ////-----引入系统所需类库-------------------
 ////引入错误消息类
 //include_once 'core/msg.lib.php';
