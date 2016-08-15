@@ -4,21 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "503f21ddabfdb5a7de9a0dd8aafcb321",
-    "content-hash": "527cf87b584b00003d788e457eb2e151",
-    "packages": [
+    "hash": "2f3c6d6b1c2e5c2c2a814693029262cc",
+    "content-hash": "40e1504b7f8bcc8824ccc8ba80af971c",
+    "packages": [],
+    "packages-dev": [
         {
-            "name": "workerman/globaldata",
-            "version": "v1.0.2",
+            "name": "victorruan/globaldata",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/walkor/GlobalData.git",
-                "reference": "ea3eca7b351693b4fb8580e7b351f12dd28c78fe"
+                "url": "https://github.com/victorruan/GlobalData.git",
+                "reference": "61eb16bb297bdc77fc4c271de3084248fea90988"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/walkor/GlobalData/zipball/ea3eca7b351693b4fb8580e7b351f12dd28c78fe",
-                "reference": "ea3eca7b351693b4fb8580e7b351f12dd28c78fe",
+                "url": "https://api.github.com/repos/victorruan/GlobalData/zipball/61eb16bb297bdc77fc4c271de3084248fea90988",
+                "reference": "61eb16bb297bdc77fc4c271de3084248fea90988",
                 "shasum": ""
             },
             "require": {
@@ -35,20 +36,20 @@
                 "MIT"
             ],
             "homepage": "http://www.workerman.net",
-            "time": "2016-06-02 06:35:44"
+            "time": "2016-08-15 02:02:22"
         },
         {
             "name": "workerman/workerman",
-            "version": "v3.3.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/walkor/Workerman.git",
-                "reference": "72dcfe49b70566be36cca7426542ea21dec2197b"
+                "reference": "3fc35c30cbeaa7fbeb54a5d46a064b839d1e6550"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/walkor/Workerman/zipball/72dcfe49b70566be36cca7426542ea21dec2197b",
-                "reference": "72dcfe49b70566be36cca7426542ea21dec2197b",
+                "url": "https://api.github.com/repos/walkor/Workerman/zipball/3fc35c30cbeaa7fbeb54a5d46a064b839d1e6550",
+                "reference": "3fc35c30cbeaa7fbeb54a5d46a064b839d1e6550",
                 "shasum": ""
             },
             "require": {
@@ -81,13 +82,14 @@
                 "asynchronous",
                 "event-loop"
             ],
-            "time": "2016-07-01 12:40:31"
+            "time": "2016-08-07 07:09:11"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "victorruan/globaldata": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
